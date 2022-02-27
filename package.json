@@ -1,0 +1,25 @@
+{
+  "name": "expressbicycleshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoverse/the-bicycle-shop-expressjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoverse/the-bicycle-shop-expressjs/issues"
+  },
+  "homepage": "https://github.com/theoverse/the-bicycle-shop-expressjs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
