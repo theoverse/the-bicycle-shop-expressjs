@@ -11,13 +11,15 @@ let hostname = '127.0.0.1';
 let port = 3000;
 
 app.get('/', (req, res) => {
-    return res.render('bicycles');
+    return res.render('bicycles', {
+        bicycles
+    });
 });
 
 app.get('/bicycle', (req, res) => {
 
     const bicycle = bicycles.find(b => b.id === req.query.id);
-    console.log(bicycle)
+    // console.log(bicycle)
     return res.render('overview', {
         bicycle
     });
